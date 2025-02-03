@@ -2,25 +2,25 @@
 <testng-results ignored="0" total="4" passed="1" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-31T12:50:17 IST" name="Suite" finished-at="2025-01-31T12:51:51 IST" duration-ms="93818">
+  <suite started-at="2025-02-02T18:34:37 IST" name="Suite" finished-at="2025-02-02T18:36:28 IST" duration-ms="111166">
     <groups>
     </groups>
-    <test started-at="2025-01-31T12:50:17 IST" name="Test" finished-at="2025-01-31T12:51:51 IST" duration-ms="93818">
+    <test started-at="2025-02-02T18:34:37 IST" name="Test" finished-at="2025-02-02T18:36:28 IST" duration-ms="111166">
       <class name="testcase.MainTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.MainTest@3d34d211]" started-at="2025-01-31T12:50:19 IST" name="setUp" finished-at="2025-01-31T12:50:29 IST" duration-ms="9932" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.MainTest@3d34d211]" started-at="2025-02-02T18:34:38 IST" name="setUp" finished-at="2025-02-02T18:35:07 IST" duration-ms="28317" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcase.MainTest@3d34d211]" started-at="2025-01-31T12:50:29 IST" name="loginTest" data-provider="excelData" finished-at="2025-01-31T12:50:42 IST" duration-ms="13622" status="FAIL">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcase.MainTest@3d34d211]" started-at="2025-02-02T18:35:07 IST" name="loginTest" data-provider="excelData" finished-at="2025-02-02T18:35:20 IST" duration-ms="13636" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[sohail2021@gmail.com]]>
+                <![CDATA[wrong_username]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[proj24]]>
+                <![CDATA[wrong_password]]>
               </value>
             </param>
           </params>
@@ -31,10 +31,10 @@
 Build info: version: '4.28.1', revision: '73f5ad48a2'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [520dc5f4ca6067ca3608141e949188d1, sendKeysToElement {value=[Ljava.lang.CharSequence;@56e9a474, id=f.36032791F91E2BBB56FBF270DF380D0C.d.17846BDBA87532CAEEEA7C301D48E216.e.14}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50633}, msedge: {msedgedriverVersion: 132.0.2957.127 (cbce079b96b..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50633/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (520dc5f4ca6067ca3608141e949188d1)] -> id: password]
-Session ID: 520dc5f4ca6067ca3608141e949188d1]]>
+Command: [e256c079bb2cd743b4f17696c485400e, sendKeysToElement {id=f.5A11D402F23C9A96FE3550D288FC95D6.d.94D0DC6C1B552F3D6EECA83E88D732A3.e.14, value=[Ljava.lang.CharSequence;@f3560d4}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53307}, msedge: {msedgedriverVersion: 132.0.2957.140 (a81e27b375d..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53307/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (e256c079bb2cd743b4f17696c485400e)] -> id: password]
+Session ID: e256c079bb2cd743b4f17696c485400e]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -42,10 +42,10 @@ Session ID: 520dc5f4ca6067ca3608141e949188d1]]>
 Build info: version: '4.28.1', revision: '73f5ad48a2'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [520dc5f4ca6067ca3608141e949188d1, sendKeysToElement {value=[Ljava.lang.CharSequence;@56e9a474, id=f.36032791F91E2BBB56FBF270DF380D0C.d.17846BDBA87532CAEEEA7C301D48E216.e.14}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50633}, msedge: {msedgedriverVersion: 132.0.2957.127 (cbce079b96b..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50633/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (520dc5f4ca6067ca3608141e949188d1)] -> id: password]
-Session ID: 520dc5f4ca6067ca3608141e949188d1
+Command: [e256c079bb2cd743b4f17696c485400e, sendKeysToElement {id=f.5A11D402F23C9A96FE3550D288FC95D6.d.94D0DC6C1B552F3D6EECA83E88D732A3.e.14, value=[Ljava.lang.CharSequence;@f3560d4}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53307}, msedge: {msedgedriverVersion: 132.0.2957.140 (a81e27b375d..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53307/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (e256c079bb2cd743b4f17696c485400e)] -> id: password]
+Session ID: e256c079bb2cd743b4f17696c485400e
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
@@ -91,24 +91,24 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.MainTest@3d34d211]" started-at="2025-01-31T12:50:42 IST" name="tearDown" finished-at="2025-01-31T12:50:44 IST" duration-ms="1522" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.MainTest@3d34d211]" started-at="2025-02-02T18:35:20 IST" name="tearDown" finished-at="2025-02-02T18:35:22 IST" duration-ms="1578" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.MainTest@3d34d211]" started-at="2025-01-31T12:50:44 IST" name="setUp" finished-at="2025-01-31T12:50:51 IST" duration-ms="7476" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.MainTest@3d34d211]" started-at="2025-02-02T18:35:22 IST" name="setUp" finished-at="2025-02-02T18:35:32 IST" duration-ms="10068" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcase.MainTest@3d34d211]" started-at="2025-01-31T12:50:51 IST" name="loginTest" data-provider="excelData" finished-at="2025-01-31T12:51:05 IST" duration-ms="13440" status="FAIL">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcase.MainTest@3d34d211]" started-at="2025-02-02T18:35:32 IST" name="loginTest" data-provider="excelData" finished-at="2025-02-02T18:35:46 IST" duration-ms="13912" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[sheikh2021@gmail.com]]>
+                <![CDATA[wrong_username]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Auto@24]]>
+                <![CDATA[wrong_password]]>
               </value>
             </param>
           </params>
@@ -119,10 +119,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 Build info: version: '4.28.1', revision: '73f5ad48a2'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [ecbb0549c4d993ad843fcd7e5df0b74b, sendKeysToElement {value=[Ljava.lang.CharSequence;@ebda593, id=f.E22277505682ACF51A298294731A0DB3.d.A791FDFBB39BC2A27BBF154BBBE8FC3C.e.14}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50722}, msedge: {msedgedriverVersion: 132.0.2957.127 (cbce079b96b..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50722/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (ecbb0549c4d993ad843fcd7e5df0b74b)] -> id: password]
-Session ID: ecbb0549c4d993ad843fcd7e5df0b74b]]>
+Command: [10f180fe1846505e4127c770821ecf48, sendKeysToElement {id=f.D642AD0696EBEBADFE73A9146F250DDA.d.4CD24EED5E48D33D405E7920710DBE91.e.14, value=[Ljava.lang.CharSequence;@54e43bfe}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53409}, msedge: {msedgedriverVersion: 132.0.2957.140 (a81e27b375d..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53409/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (10f180fe1846505e4127c770821ecf48)] -> id: password]
+Session ID: 10f180fe1846505e4127c770821ecf48]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -130,10 +130,10 @@ Session ID: ecbb0549c4d993ad843fcd7e5df0b74b]]>
 Build info: version: '4.28.1', revision: '73f5ad48a2'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [ecbb0549c4d993ad843fcd7e5df0b74b, sendKeysToElement {value=[Ljava.lang.CharSequence;@ebda593, id=f.E22277505682ACF51A298294731A0DB3.d.A791FDFBB39BC2A27BBF154BBBE8FC3C.e.14}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50722}, msedge: {msedgedriverVersion: 132.0.2957.127 (cbce079b96b..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50722/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (ecbb0549c4d993ad843fcd7e5df0b74b)] -> id: password]
-Session ID: ecbb0549c4d993ad843fcd7e5df0b74b
+Command: [10f180fe1846505e4127c770821ecf48, sendKeysToElement {id=f.D642AD0696EBEBADFE73A9146F250DDA.d.4CD24EED5E48D33D405E7920710DBE91.e.14, value=[Ljava.lang.CharSequence;@54e43bfe}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53409}, msedge: {msedgedriverVersion: 132.0.2957.140 (a81e27b375d..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53409/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (10f180fe1846505e4127c770821ecf48)] -> id: password]
+Session ID: 10f180fe1846505e4127c770821ecf48
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
@@ -179,24 +179,24 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.MainTest@3d34d211]" started-at="2025-01-31T12:51:05 IST" name="tearDown" finished-at="2025-01-31T12:51:06 IST" duration-ms="1553" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.MainTest@3d34d211]" started-at="2025-02-02T18:35:46 IST" name="tearDown" finished-at="2025-02-02T18:35:47 IST" duration-ms="1561" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.MainTest@3d34d211]" started-at="2025-01-31T12:51:06 IST" name="setUp" finished-at="2025-01-31T12:51:16 IST" duration-ms="9580" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.MainTest@3d34d211]" started-at="2025-02-02T18:35:47 IST" name="setUp" finished-at="2025-02-02T18:35:55 IST" duration-ms="7682" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcase.MainTest@3d34d211]" started-at="2025-01-31T12:51:16 IST" name="loginTest" data-provider="excelData" finished-at="2025-01-31T12:51:29 IST" duration-ms="13586" status="FAIL">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcase.MainTest@3d34d211]" started-at="2025-02-02T18:35:55 IST" name="loginTest" data-provider="excelData" finished-at="2025-02-02T18:36:09 IST" duration-ms="13470" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[sheikhsohail@gmail.com]]>
+                <![CDATA[wrong_username]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Autoproj24]]>
+                <![CDATA[wrong_password]]>
               </value>
             </param>
           </params>
@@ -207,10 +207,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 Build info: version: '4.28.1', revision: '73f5ad48a2'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [9c5073fd7a57ce44801f43b5dc6e33f0, sendKeysToElement {value=[Ljava.lang.CharSequence;@19bedeb8, id=f.C5B57B1D8D25D109D3915ADCCD2F43D9.d.B11E94918A174B6C11D9586D8BEFF96D.e.14}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50817}, msedge: {msedgedriverVersion: 132.0.2957.127 (cbce079b96b..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50817/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (9c5073fd7a57ce44801f43b5dc6e33f0)] -> id: password]
-Session ID: 9c5073fd7a57ce44801f43b5dc6e33f0]]>
+Command: [027d293280dbe27a6032ad9023e3b0d2, sendKeysToElement {id=f.F10BD9C9F56227D8B3C84B5DDD84096C.d.21128881DB05496AAB3D790EA5CD1CAC.e.14, value=[Ljava.lang.CharSequence;@78910096}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53570}, msedge: {msedgedriverVersion: 132.0.2957.140 (a81e27b375d..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53570/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (027d293280dbe27a6032ad9023e3b0d2)] -> id: password]
+Session ID: 027d293280dbe27a6032ad9023e3b0d2]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -218,10 +218,10 @@ Session ID: 9c5073fd7a57ce44801f43b5dc6e33f0]]>
 Build info: version: '4.28.1', revision: '73f5ad48a2'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [9c5073fd7a57ce44801f43b5dc6e33f0, sendKeysToElement {value=[Ljava.lang.CharSequence;@19bedeb8, id=f.C5B57B1D8D25D109D3915ADCCD2F43D9.d.B11E94918A174B6C11D9586D8BEFF96D.e.14}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50817}, msedge: {msedgedriverVersion: 132.0.2957.127 (cbce079b96b..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50817/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (9c5073fd7a57ce44801f43b5dc6e33f0)] -> id: password]
-Session ID: 9c5073fd7a57ce44801f43b5dc6e33f0
+Command: [027d293280dbe27a6032ad9023e3b0d2, sendKeysToElement {id=f.F10BD9C9F56227D8B3C84B5DDD84096C.d.21128881DB05496AAB3D790EA5CD1CAC.e.14, value=[Ljava.lang.CharSequence;@78910096}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53570}, msedge: {msedgedriverVersion: 132.0.2957.140 (a81e27b375d..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53570/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (027d293280dbe27a6032ad9023e3b0d2)] -> id: password]
+Session ID: 027d293280dbe27a6032ad9023e3b0d2
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
@@ -267,15 +267,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.MainTest@3d34d211]" started-at="2025-01-31T12:51:29 IST" name="tearDown" finished-at="2025-01-31T12:51:31 IST" duration-ms="1526" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.MainTest@3d34d211]" started-at="2025-02-02T18:36:09 IST" name="tearDown" finished-at="2025-02-02T18:36:10 IST" duration-ms="1509" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.MainTest@3d34d211]" started-at="2025-01-31T12:51:31 IST" name="setUp" finished-at="2025-01-31T12:51:42 IST" duration-ms="10831" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.MainTest@3d34d211]" started-at="2025-02-02T18:36:10 IST" name="setUp" finished-at="2025-02-02T18:36:19 IST" duration-ms="9129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcase.MainTest@3d34d211]" started-at="2025-01-31T12:51:42 IST" name="loginTest" data-provider="excelData" finished-at="2025-01-31T12:51:49 IST" duration-ms="7602" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcase.MainTest@3d34d211]" started-at="2025-02-02T18:36:19 IST" name="loginTest" data-provider="excelData" finished-at="2025-02-02T18:36:26 IST" duration-ms="7189" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -291,7 +291,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.MainTest@3d34d211]" started-at="2025-01-31T12:51:49 IST" name="tearDown" finished-at="2025-01-31T12:51:51 IST" duration-ms="1699" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.MainTest@3d34d211]" started-at="2025-02-02T18:36:26 IST" name="tearDown" finished-at="2025-02-02T18:36:28 IST" duration-ms="1510" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

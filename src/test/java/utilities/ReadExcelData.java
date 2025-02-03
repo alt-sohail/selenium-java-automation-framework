@@ -20,6 +20,8 @@ public class ReadExcelData {
 
 		int rowCount = sheet.getLastRowNum();
 		int cellCount = sheet.getRow(0).getLastCellNum();
+		
+		System.out.println("Row Count = " + rowCount + " : " + "Cell Count = " + cellCount);
 
 		Object[][] data = new Object[rowCount][cellCount];
 		for (int i = 1; i <= rowCount; i++) {
